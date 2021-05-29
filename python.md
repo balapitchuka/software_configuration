@@ -42,6 +42,7 @@ Deactivating virtual environment
 
 Install dependencies from requirements.txt using conda
 > conda install pip
+
 > pip install -r requirements.txt
 
 List all virtual environments managed by conda
