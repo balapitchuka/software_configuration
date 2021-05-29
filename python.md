@@ -1,6 +1,6 @@
-Managing multiple versions of python on a machine
+### Managing multiple versions of python on a machine
 
-pyenv
+#### pyenv
 
 linux based os comes with default python installed based on type of os
 
@@ -26,4 +26,23 @@ venv
 
 
 installing jupyter notebooks
+
+
+#### anaconda
+open anaconda prompt after installation to type these commands
+
+Creating virtualenv using conda
+`conda create -n my_virtualenv python=3.7`
+
+Activate virtual environment created using conda
+`conda activate my_virtualenv`
+
+Deactivating virtual environment
+`conda deactivate`
+
+Install dependencies from requirements.txt using conda
+`conda install pip`
+`pip install -r requirements.txt`
+
+
 
