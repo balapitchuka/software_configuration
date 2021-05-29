@@ -32,17 +32,20 @@ installing jupyter notebooks
 open anaconda prompt after installation to type these commands
 
 Creating virtualenv using conda
-`conda create -n my_virtualenv python=3.7`
+```conda create -n my_virtualenv python=3.7```
 
 Activate virtual environment created using conda
-`conda activate my_virtualenv`
+```conda activate my_virtualenv```
 
 Deactivating virtual environment
-`conda deactivate`
+```conda deactivate```
 
 Install dependencies from requirements.txt using conda
-`conda install pip`
-`pip install -r requirements.txt`
+```conda install pip```
+```pip install -r requirements.txt```
+
+List all virtual environments managed by conda
+```conda env list```
 
 
 
