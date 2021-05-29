@@ -32,7 +32,7 @@ installing jupyter notebooks
 open anaconda prompt after installation to type these commands
 
 Creating virtualenv using conda
-```conda create -n my_virtualenv python=3.7```
+> conda create -n my_virtualenv python=3.7
 
 Activate virtual environment created using conda
 ```conda activate my_virtualenv```
