@@ -12,7 +12,7 @@ Linux based OS comes with default python installed based on type/distribution of
 + If you want to install other versions use pyenv to manage them all
 
 
-#### pyenv installation and setup
+#### pyenv installation and setup (TODO)
 
 
 #### pyenv commands
@@ -55,33 +55,47 @@ installing jupyter notebooks
 ### conda
 open anaconda prompt after installation to type these commands
 
- Display Conda environment information
- > conda info
+#### conda commands
+Display Conda environment information
+```
+conda info
+```
 
 Creating virtualenv using conda
-> conda create -n my_virtualenv python=3.7
+```
+conda create -n my_virtualenv python=3.7
 
->  conda create --name project-env python=3.7
+conda create --name project-env python=3.7
 
-  - The environments created by Conda is always located in /Users/.../anaconda3/envs/  (windows)
-  - 
+Note: The environments created by Conda is always located in /Users/.../anaconda3/envs/  (windows)
+```
 
 Activate virtual environment created using conda
-> conda activate my_virtualenv
+```
+conda activate my_virtualenv
+```
 
 Deactivating virtual environment
-> conda deactivate
+```
+conda deactivate
+```
 
 Install dependencies from requirements.txt using conda
-> conda install pip
+```
+conda install pip
 
-> pip install -r requirements.txt
+pip install -r requirements.txt
+```
 
 List all virtual environments managed by conda
-> conda env list
+```
+conda env list
+```
 
 Display all packages in the current virtual environment
->  conda list
+```
+conda list
+```
 
 ## Python Virtual Environment Management
 
