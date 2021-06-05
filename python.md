@@ -1,13 +1,22 @@
-## Managing multiple versions of python on a machine
+# Python Software Setup and Configuration 
 
-### Pyenv
 
-Note: Linux based OS comes with default python installed based on type/distribution of OS. If you want to install other versions use pyenv to manage them all
+## Python Version Management(managing multiple versions of python on a machine)
+
+### pyenv
+
+pyenv is a mature tool for installing and managing multiple Python versions
+
+**Note**
+Linux based OS comes with default python installed based on type/distribution of OS
+- If you want to install other versions use pyenv to manage them all
 
 Install and configure pyenv
 
 List all the python versions and virtualenv present
-> pyenv versions
+```
+pyenv versions
+```
 
 Set global python version
 > pyenv global 3.6.5
@@ -25,19 +34,12 @@ Deactivate virtual environment
 > pyenv deactivate
 
 
-creating virtual environments for python
-
-pipfile
-
-virtualenv
-
-venv
 
 
 installing jupyter notebooks
 
 
-### Anaconda
+### conda
 open anaconda prompt after installation to type these commands
 
  Display Conda environment information
@@ -68,5 +70,12 @@ List all virtual environments managed by conda
 Display all packages in the current virtual environment
 >  conda list
 
+## Python Virtual Environment Management
+
+pipfile
+
+virtualenv
+
+venv
 
 
