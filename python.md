@@ -7,11 +7,15 @@
 
 pyenv is a mature tool for installing and managing multiple Python versions
 
-**Note**
- Linux based OS comes with default python installed based on type/distribution of OS
-  - If you want to install other versions use pyenv to manage them all
+**Important**  
+Linux based OS comes with default python installed based on type/distribution of OS
++ If you want to install other versions use pyenv to manage them all
 
-Install and configure pyenv
+
+### pyenv installation and setup
+
+
+### pyenv commands
 
 List all the python versions and virtualenv present
 ```
