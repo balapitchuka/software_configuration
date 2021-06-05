@@ -12,10 +12,10 @@ Linux based OS comes with default python installed based on type/distribution of
 + If you want to install other versions use pyenv to manage them all
 
 
-### pyenv installation and setup
+#### pyenv installation and setup
 
 
-### pyenv commands
+#### pyenv commands
 
 List all the python versions and virtualenv present
 ```
@@ -23,20 +23,29 @@ pyenv versions
 ```
 
 Set global python version
-> pyenv global 3.6.5
+```
+pyenv global 3.6.5
+```
 
 Set local python version
->pyenv local 3.7.8
+```
+pyenv local 3.7.8
+```
 
 Create virtual environement using specific python version
-> pyenv virtualenv 3.6.7 env_name
+```
+pyenv virtualenv 3.6.7 env_name
+```
 
 Activate virtual environment
-> pyenv activate env_name
+```
+pyenv activate env_name
+```
 
 Deactivate virtual environment
-> pyenv deactivate
-
+```
+pyenv deactivate
+```
 
 
 
