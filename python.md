@@ -2,8 +2,8 @@
 
 ### Pyenv
 
-Note: linux based os comes with default python installed based on type of os
-            - If you want to install other versions use pyenv to manage them all
+Note: Linux based OS comes with default python installed based on type of os
+      - If you want to install other versions use pyenv to manage them all
 
 Install and configure pyenv
 
