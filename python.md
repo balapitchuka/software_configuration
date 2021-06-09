@@ -5,6 +5,7 @@ Python environment setup and tools to manage multiple python software/versions
 - [Python Implementations](https://wiki.python.org/moin/PythonImplementations)
 - [Python Distributions Cpython](https://wiki.python.org/moin/PythonDistributions)
 - [Python Implementations vs Distributions](https://stackoverflow.com/questions/27450172/python-implementation-vs-python-distribution-vs-python-itself)
+- [Effective Python Environment](https://realpython.com/effective-python-environment/)
 
 
 ## Python Version Management(managing multiple versions of python on a machine)
