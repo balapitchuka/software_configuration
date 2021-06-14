@@ -106,7 +106,8 @@ conda list
 
 ## Python Virtual Environment Management
 
-pipfile
+### pipenv
+Pipenv is a packaging tool for python that solves some common problems associated with typical workflow of pip, virtualenv, and requirements.txt file
 
 virtualenv
 
