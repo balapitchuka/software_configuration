@@ -5,7 +5,9 @@
 
 [Installation](https://sdkman.io/install)
 
+## Build Automation Tools
 
-Maven
+### Maven
 
-Gradle
+### Gradle
+[Installation steps](https://gradle.org/install/)
