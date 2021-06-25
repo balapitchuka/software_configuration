@@ -1,4 +1,4 @@
-
+## Java Licensing Model(Todo) 
 ## Multiple java versions management
 
 ### SDKMAN
