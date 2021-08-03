@@ -19,7 +19,8 @@ Linux based OS comes with default python installed based on type/distribution of
 + If you want to install other versions use pyenv to manage them all
 
 
-#### pyenv installation and setup (TODO)
+#### pyenv installation and setup
+- [pyenv installtion](https://github.com/pyenv/pyenv-installer)
 
 
 #### pyenv commands
