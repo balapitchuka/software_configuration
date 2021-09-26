@@ -55,6 +55,12 @@ pyenv activate env_name
 pyenv deactivate
 ```
 
+##### Run python scripts from pyenv virtualenvironment
+```
+pyenv exec python3 -m pip freeze
+pyenv exec python3 hello.py
+```
+
 
 
 installing jupyter notebooks
