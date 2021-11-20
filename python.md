@@ -25,6 +25,26 @@ Linux based OS comes with default python installed based on type/distribution of
 
 **pyenv commands**
 
+1. Create a file named `eks-connector-agent-trust-policy.json` that contains the following JSON to use for the IAM role\.
+
+   ```
+   {
+       "Version": "2012-10-17",
+       "Statement": [
+           {
+               "Sid": "SSMAccess",
+               "Effect": "Allow",
+               "Principal": {
+                   "Service": [
+                       "ssm.amazonaws.com"
+                   ]
+               },
+               "Action": "sts:AssumeRole"
+           }
+       ]
+   }
+   ```
+
 1. List all the python versions and virtualenv present\.
 
   ```
