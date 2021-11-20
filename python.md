@@ -1,7 +1,7 @@
-# Python Configuration Management
+# Python Configuration Management<a name="python-config-manage"></a>
 Python environment setup and tools to manage multiple python software/versions
 
-## References
+## References<a name="references"></a>
 - [Python Implementations](https://wiki.python.org/moin/PythonImplementations)
 - [Python Distributions Cpython](https://wiki.python.org/moin/PythonDistributions)
 - [Python Implementations vs Distributions](https://stackoverflow.com/questions/27450172/python-implementation-vs-python-distribution-vs-python-itself)
@@ -26,40 +26,40 @@ Linux based OS comes with default python installed based on type/distribution of
 #### pyenv commands
 
 ##### List all the python versions and virtualenv present
-```
-pyenv versions
-```
+  ```
+  pyenv versions
+  ```
 
 ##### Set global python version
-```
-pyenv global 3.6.5
-```
+  ```
+  pyenv global 3.6.5
+  ```
 
 ##### Set local python version
-```
-pyenv local 3.7.8
-```
+  ```
+  pyenv local 3.7.8
+  ```
 
 ##### Create virtual environement using specific python version
-```
-pyenv virtualenv 3.6.7 env_name
-```
+  ```
+  pyenv virtualenv 3.6.7 env_name
+  ```
 
 ##### Activate virtual environment
-```
-pyenv activate env_name
-```
+  ```
+  pyenv activate env_name
+  ```
 
 ##### Deactivate virtual environment
-```
-pyenv deactivate
-```
+  ```
+  pyenv deactivate
+  ```
 
 ##### Run python scripts from pyenv virtualenvironment
-```
-pyenv exec python3 -m pip freeze
-pyenv exec python3 hello.py
-```
+  ```
+  pyenv exec python3 -m pip freeze
+  pyenv exec python3 hello.py
+  ```
 
 
 
@@ -71,45 +71,45 @@ open anaconda prompt after installation to type these commands
 
 #### conda commands
 ##### Display Conda environment information
-```
-conda info
-```
+  ```
+  conda info
+  ```
 
 ##### Creating virtualenv using conda
-```
-conda create -n my_virtualenv python=3.7
+  ```
+  conda create -n my_virtualenv python=3.7
 
-conda create --name project-env python=3.7
+  conda create --name project-env python=3.7
 
-Note: The environments created by Conda is always located in /Users/.../anaconda3/envs/  (windows)
-```
+  Note: The environments created by Conda is always located in /Users/.../anaconda3/envs/  (windows)
+  ```
 
 ##### Activate virtual environment created using conda
-```
-conda activate my_virtualenv
-```
+  ```
+  conda activate my_virtualenv
+  ```
 
 ##### Deactivating virtual environment
-```
-conda deactivate
-```
+  ```
+  conda deactivate
+  ```
 
 ##### Install dependencies from requirements.txt using conda
-```
-conda install pip
+  ```
+  conda install pip
 
-pip install -r requirements.txt
-```
+  pip install -r requirements.txt
+  ```
 
 ##### List all virtual environments managed by conda
-```
-conda env list
-```
+  ```
+  conda env list
+  ```
 
 ##### Display all packages in the current virtual environment
-```
-conda list
-```
+  ```
+  conda list
+  ```
 
 ## Python Virtual Environment Management
 
