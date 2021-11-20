@@ -10,7 +10,7 @@ Python environment setup and tools to manage multiple python software/versions
 
 ## Python Version Management(managing multiple versions of python on a machine)
 
-### pyenv
+### pyenv<a name="pyenv"></a>
 
 pyenv is a mature tool for installing and managing multiple Python versions
 
@@ -23,39 +23,39 @@ Linux based OS comes with default python installed based on type/distribution of
 - [pyenv installtion](https://github.com/pyenv/pyenv-installer)
 
 
-#### pyenv commands
+**pyenv commands**
 
-##### List all the python versions and virtualenv present
+1. List all the python versions and virtualenv present
   ```
   pyenv versions
   ```
 
-##### Set global python version
+1. Set global python version
   ```
   pyenv global 3.6.5
   ```
 
-##### Set local python version
+1. Set local python version
   ```
   pyenv local 3.7.8
   ```
 
-##### Create virtual environement using specific python version
+1. Create virtual environement using specific python version
   ```
   pyenv virtualenv 3.6.7 env_name
   ```
 
-##### Activate virtual environment
+1. Activate virtual environment
   ```
   pyenv activate env_name
   ```
 
-##### Deactivate virtual environment
+1. Deactivate virtual environment
   ```
   pyenv deactivate
   ```
 
-##### Run python scripts from pyenv virtualenvironment
+1. Run python scripts from pyenv virtualenvironment
   ```
   pyenv exec python3 -m pip freeze
   pyenv exec python3 hello.py
