@@ -25,13 +25,14 @@ Linux based OS comes with default python installed based on type/distribution of
 
 **pyenv commands**
 
-1. List all the python versions and virtualenv present.
+1. List all the python versions and virtualenv present\.
 
   ```
   pyenv versions
   ```
 
 1. Set global python version
+
   ```
   pyenv global 3.6.5
   ```
