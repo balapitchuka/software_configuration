@@ -31,18 +31,18 @@ Linux based OS comes with default python installed based on type/distribution of
   pyenv versions
   ```
 
-1. Set global python version
+1. Set global python version\.
 
   ```
   pyenv global 3.6.5
   ```
 
-1. Set local python version
+1. Set local python version\.
   ```
   pyenv local 3.7.8
   ```
 
-1. Create virtual environement using specific python version
+1. Create virtual environement using specific python version\.
   ```
   pyenv virtualenv 3.6.7 env_name
   ```
