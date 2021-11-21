@@ -22,10 +22,48 @@ Linux based OS comes with default python installed based on type/distribution of
 #### pyenv installation and setup
 - [pyenv installtion](https://github.com/pyenv/pyenv-installer)
 
+Installation 
+```bash
+
+ubuntu
+
+    sudo apt-get install -y make build-essential libssl-dev zlib1g-dev \
+    libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev \
+    libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python-openssl
+
+    #Check out pyenv where you want it installed (PYENV_ROOT=$HOME/.pyenv)
+    git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+
+    #Define environment variable PYENV_ROOT to point to the path where pyenv repo is cloned 
+    #and add $PYENV_ROOT/bin to your $PATH for access to the pyenv command-line utility
+    echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
+    echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
+
+    # Add pyenv init to your shell to enable shims and autocompletion
+    # Make sure eval "$(pyenv init -)" is placed toward the end of the shell configuration file
+    # since it manipulates PATH during the initialization.
+    # updated 2021/10/22
+    # https://stackoverflow.com/questions/33321312/cannot-switch-python-with-pyenv
+    echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init --path)"\nfi' >> ~/.bashrc
+
+    #Restart your shell so the path changes take effect
+    exec "$SHELL"
+
+    #Install Python versions
+    pyenv install --list       #list all available Python
+    pyenv install 3.5.5        #install python3.5.5
+    pyenv versions             #list all installed versions
+    which python               #find the current location of the python interpreter
+    pyenv which python         #show the actual location of the python interpreter it’s using
+    #Uninstall
+    pyenv uninstall 3.5.5
+
+```
+
 
 **pyenv commands**
 
-1. List all the python versions and virtualenv present\.
+List all the python versions and virtualenv present\.
 
   ```
   pyenv versions
@@ -125,7 +163,4 @@ venv
 # Todo) How to resolve depedency version conflicts in pip and other package installers
 
 
-1. Hello
-1. Hello 
-1. Hello
 
