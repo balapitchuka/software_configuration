@@ -100,7 +100,8 @@ List all the python versions and virtualenv present\.
   pyenv exec python3 hello.py
   ```
 
-
+### pyenv refernces
+- [Manage Multiple Python Versions with pyenv on Ubuntu and Mac](https://bizhishui.github.io/Manage-Pythons)
 
 installing jupyter notebooks
 
