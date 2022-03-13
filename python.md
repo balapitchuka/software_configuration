@@ -155,6 +155,18 @@ open anaconda prompt after installation to type these commands
 
 ### pipenv
 Pipenv is a packaging tool for python that solves some common problems associated with typical workflow of pip, virtualenv, and requirements.txt file
+```
+Install pipenv
+
+pip install pipenv
+
+Activate environment:
+pipenv shell
+
+Install dependencies:
+pipenv install
+
+```
 
 virtualenv
 
