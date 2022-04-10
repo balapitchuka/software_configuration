@@ -168,6 +168,9 @@ pipenv install
 
 ```
 
+pipenv references
+[how pipenv works](https://realpython.com/pipenv-guide)
+
 virtualenv
 
 venv
