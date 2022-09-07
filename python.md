@@ -179,4 +179,13 @@ venv
 # Todo) How to resolve depedency version conflicts in pip and other package installers
 
 
+## Python Dependency Management Tools
+
+### Poetry
+- Poetry is a tool for dependency management and packaging in Python. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you
+- Poetry offers a lockfile to ensure repeatable installs, and can build your project for distribution.
+- Poetry requires Python 3.7+. It is multi-platform and the goal is to make it work equally well on Linux, macOS and Windows.
+
+
+
 
